@@ -1,0 +1,21 @@
+.root{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    margin: 20px;
+    grid-gap: 40px;
+    /* background-color: rgb(99, 246, 246); */
+    height: fit-content;
+    width: 200vh;
+
+}
+
+.root img {
+    transition: 1s;
+    margin: auto;
+    filter: grayscale(1);
+
+}
+.root img:hover {
+    filter: grayscale(0);
+    transform: scale(1.01);
+}
